@@ -1,0 +1,37 @@
+{
+    "name": "ra-language-portuguese",
+    "version": "0.1.0",
+    "description": "Portuguese messages for react-admin, the frontend framework for building admin applications on top of REST/GraphQL services",
+    "main": "dist/cjs/index.js",
+    "module": "dist/esm/index.js",
+    "types": "dist/cjs/index.d.ts",
+    "scripts": {
+        "build": "npm run build-cjs && npm run build-esm",
+        "build-cjs": "rimraf ./dist/cjs && tsc --outDir dist/cjs",
+        "build-esm": "rimraf ./dist/esm && tsc --outDir dist/esm --module es2015",
+        "watch": "tsc --outDir dist/esm --module es2015 --watch"
+    },
+    "dependencies": {
+        "ra-core": "^4.3.4"
+    },
+    "devDependencies": {
+        "rimraf": "^3.0.2",
+        "typescript": "^4.8.4"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/bernardoduarte/ra-language-portuguese.git"
+    },
+    "keywords": [
+        "react",
+        "react-admin",
+        "admin-on-rest",
+        "translation"
+    ],
+    "author": "Bernardo Duarte",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/bernardoduarte/ra-language-portuguese/issues"
+    },
+    "homepage": "https://github.com/bernardoduarte/ra-language-portuguese#readme"
+}
