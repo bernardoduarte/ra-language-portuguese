@@ -1,6 +1,6 @@
 {
     "name": "@bernardoduarte/ra-language-portuguese",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "description": "Portuguese messages for react-admin, the frontend framework for building admin applications on top of REST/GraphQL services",
     "main": "dist/cjs/index.js",
     "module": "dist/esm/index.js",
